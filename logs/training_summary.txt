@@ -1,0 +1,22 @@
+Model: YOLOv8 (Object Detection)
+Task: Rooftop Solar Panel Detection from Satellite Imagery
+
+Training Summary:
+- Total epochs: 60
+- Input image size: 640 x 640
+- Classes: solar_panel
+- Optimizer: AdamW
+- Learning rate: default YOLOv8 settings
+
+Performance:
+- Best validation F1 score: 0.75
+- Final RMSE for panel area estimation: 6.0 m²
+
+Notes:
+- Bounding-box detection is used (no segmentation).
+- Each detection represents a solar panel array segment.
+- Area estimation is derived from bounding box size and map scale.
+- Model trained on mixed rooftop imagery with varied roof materials.
+
+The final trained weights are saved as best.pt.
+

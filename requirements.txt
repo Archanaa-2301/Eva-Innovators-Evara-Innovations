@@ -1,1 +1,28 @@
 
+ultralytics
+opencv-python
+numpy
+pandas
+shapely
+requests
+Pillow
+openpyxl
+
+
+
+
+ultralytics → YOLOv8 model loading & inference
+
+opencv-python → image processing & drawing buffers
+
+numpy → numerical operations
+
+pandas → Excel input handling
+
+shapely → buffer & overlap geometry
+
+requests → satellite API calls
+
+Pillow → image decoding (NASA fallback)
+
+openpyxl → reading .xlsx files

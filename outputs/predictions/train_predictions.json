@@ -1,1 +1,33 @@
+[
+  {
+    "sample_id": "train_001",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "has_solar": true,
+    "pv_area_sqm_est": 21.8,
+    "buffer_radius_sqft": 1200,
+    "confidence": 0.72,
+    "qc_status": "VERIFIABLE"
+  },
+  {
+    "sample_id": "train_002",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "has_solar": false,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "confidence": 0.0,
+    "qc_status": "NOT_VERIFIABLE"
+  },
+  {
+    "sample_id": "train_003",
+    "latitude": 17.3850,
+    "longitude": 78.4867,
+    "has_solar": true,
+    "pv_area_sqm_est": 18.4,
+    "buffer_radius_sqft": 2400,
+    "confidence": 0.65,
+    "qc_status": "VERIFIABLE"
+  }
+]
 
